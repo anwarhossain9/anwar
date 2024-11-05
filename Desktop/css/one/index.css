@@ -1,0 +1,39 @@
+
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 'one one one '
+                        'tow three three'
+                          'tow four five';
+    }
+    .one{
+        background-color: aqua;
+        grid-area: one;
+        width: 100%;
+        height: 300px;
+    }
+    
+    .tow{
+        background-color: blue;
+        grid-area: tow;
+        width: 100%;
+        height: 200px;
+    }
+    .three{
+        grid-area: three;
+        background-color: brown;
+        width: 100%;
+    }
+    .four{
+        width: 100%;
+         background-color: blueviolet;
+         grid-area:four ;
+    }
+    .five{
+        width: 100%;
+        background-color: chartreuse;
+        grid-area: five;
+        }
+    
+    

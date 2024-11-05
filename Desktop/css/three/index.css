@@ -1,0 +1,101 @@
+
+
+.main{
+
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 2fr  ;
+    grid-template-areas: ' one tow three '
+                            'one four five'
+                            'six seven five'
+                            'eight nine nine '
+                     
+    ;
+  }
+  
+  
+   .one {
+    grid-area: one;
+    background-color: rgb(219, 3, 111);
+  height: 40vh;
+    width: 100%;
+    
+  
+  
+  }
+  .tow {
+width: 100%;
+    background-color: rgb(14, 216, 223);
+    grid-area: tow;
+    
+    }
+  
+    
+  .three  {
+  width: 100%;
+    background-color: rgb(28, 199, 142);
+    grid-area: three;
+    
+    }
+  
+  
+   .four{
+      background-color: rgb(35, 175, 240);
+      grid-area: four;
+      width: 100%;
+      
+    }
+    .five {
+    width: 100%;
+    height: 39vh;
+    
+      background-color: rgb(17, 121, 206);
+      grid-area: five;
+      
+  
+      }
+      
+    .six {
+
+    width: 100%;
+      grid-area: six;
+      background-color: rgb(60, 171, 245);
+      
+      }
+  
+      .seven{
+    width: 100%;
+        grid-area: seven;
+        background-color: orangered;
+      
+        }
+        .eight
+        {
+          grid-area: eight;
+          width: 100%;
+          height: 30vh;
+          background-color: rgb(255, 123, 0);
+          
+        }
+        
+        .nine
+        {
+          grid-area: nine;
+          width: 100%;
+          background-color: rgb(96, 5, 133);
+          
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        

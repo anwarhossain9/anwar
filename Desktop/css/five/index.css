@@ -1,0 +1,222 @@
+
+
+.main{
+
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat ( 8, 1fr) ;
+    grid-template-areas: 
+
+
+    'one tow three four five five six seven'
+    'eight nine ten eliven five five towelv thertin'
+    'fourtin d15  d15 d15 d16 d17 d18 d19'
+
+    'd20 d15  d15 d15 d21 d22 d23 d24 '
+
+
+
+    ;
+  }
+  
+  
+   .one {
+    grid-area: one;
+    background-color: rgb(219, 3, 111);
+    width: 100%;
+    
+  
+  
+  }
+  .tow {
+width: 100%;
+    background-color: rgb(14, 216, 223);
+    grid-area: tow;
+    
+    }
+  
+    
+  .three  {
+  width: 100%;
+    background-color: rgb(28, 199, 142);
+    grid-area: three;
+    
+    }
+  
+  
+   .four{
+      background-color: rgb(35, 175, 240);
+      grid-area: four;
+      width: 100%;
+      
+    }
+    .five {
+    width: 100%;
+
+    
+      background-color: rgb(17, 121, 206);
+      grid-area: five;
+      
+  
+      }
+      
+    .six {
+
+    width: 100%;
+      grid-area: six;
+      background-color: rgb(60, 171, 245);
+      
+      }
+  
+      .seven{
+    width: 100%;
+        grid-area: seven;
+        background-color: orangered;
+      
+        }
+        .eight
+        {
+          grid-area: eight;
+          width: 100%;
+          background-color: rgb(255, 123, 0);
+          
+        }
+        
+        .nine
+        {
+          grid-area: nine;
+          width: 100%;
+          background-color: rgb(96, 5, 133);
+          
+        }
+
+        
+        .ten
+        {
+          grid-area: ten;
+          width: 100%;
+          background-color: rgb(96, 5, 133);
+          
+        }
+
+        
+        .eliven
+        {
+          grid-area: eliven;
+          width: 100%;
+          background-color: rgb(96, 5, 133);
+          
+        }
+
+
+
+        .towelv
+        {
+          grid-area: towelv;
+          width: 100%;
+          background-color: rgb(96, 5, 133);
+          
+        }
+
+
+        .thertin
+        {
+          grid-area: thertin;
+          width: 100%;
+          background-color: rgb(96, 5, 133);
+          
+        }
+
+        .fourtin
+        {
+          grid-area: fourtin;
+          width: 100%;
+          background-color: rgb(96, 5, 133);
+          
+        }
+
+
+        .d15
+        {
+          grid-area: d15;
+          width: 100%;
+          background-color: rgb(96, 5, 133);
+          
+        }
+
+        .d16
+        {
+          grid-area: d16;
+          width: 100%;
+          background-color: rgb(96, 5, 133);
+          
+        }
+
+        
+        .d17
+        {
+          grid-area: d17;
+          width: 100%;
+          background-color: rgb(96, 5, 133);
+          
+        }
+        
+        .d18
+        {
+          grid-area: d18;
+          width: 100%;
+          background-color: rgb(96, 5, 133);
+          
+        }
+
+
+        
+        .d19
+        {
+          grid-area: d19;
+          width: 100%;
+          background-color: rgb(96, 5, 133);
+          
+        }
+
+
+        .d20
+        {
+          grid-area: d20;
+          width: 100%;
+          background-color: rgb(96, 5, 133);
+          
+        }
+
+
+        .d21
+        {
+          grid-area: d21;
+          width: 100%;
+          background-color: rgb(96, 5, 133);
+          
+        }
+
+        .d22
+        {
+          grid-area: d22;
+          width: 100%;
+          background-color: rgb(96, 5, 133);
+          
+        }
+
+        .d23
+        {
+          grid-area: d23;
+          width: 100%;
+          background-color: rgb(96, 5, 133);
+          
+        }
+
+        .d24
+        {
+          grid-area: d24;
+          width: 100%;
+          background-color: rgb(96, 5, 133);
+          
+        }
